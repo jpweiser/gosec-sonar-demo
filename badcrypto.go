@@ -8,7 +8,7 @@ func badCrypto(){
 	x := 0
 	y := 2
     if x > y {
-        h := md5.New()
+        md5.New()
     }
 
 }
